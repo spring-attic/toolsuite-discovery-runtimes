@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-	 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <parent>
-    <groupId>org.springsource.sts-ggts-bundles.plugins</groupId>
-    <artifactId>org.springsource.sts-ggts-bundles.plugins.parent</artifactId>
-    <relativePath>../pom.xml</relativePath>
-    <version>3.1.0-SNAPSHOT</version>
-  </parent>
-  <artifactId>com.springsource.server.tc.bundle</artifactId>
-  <packaging>eclipse-plugin</packaging>
-  <name>com.springsource.server.tc.bundle</name>
-  <version>2.7.1.RELEASE</version>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.springsource.sts-ggts-bundles.plugins</groupId>
+		<artifactId>org.springsource.sts-ggts-bundles.plugins.parent</artifactId>
+		<relativePath>../pom.xml</relativePath>
+		<version>3.1.0-SNAPSHOT</version>
+	</parent>
+	<artifactId>com.springsource.server.tc.bundle</artifactId>
+	<packaging>eclipse-plugin</packaging>
+	<name>com.springsource.server.tc.bundle</name>
+	<version>2.7.1.RELEASE</version>
 
-  <build>
-	<plugins>
+	<build>
+		<plugins>
 
 			<plugin>
 				<groupId>org.eclipse.tycho</groupId>
@@ -42,28 +41,30 @@
 						<phase>compile</phase>
 						<configuration>
 							<target>
-								
-								<taskdef resource="net/sf/antcontrib/antcontrib.properties"/>
-								
-								<property name="tcserver.name" value="vfabric-tc-server-developer-2.7.1.RELEASE"/>
-								
-								<get src="http://download.springsource.com/release/TCS/${tcserver.name}.zip"
-								 dest="${project.build.directory}/${tcserver.name}.zip"
-								 verbose="true"
-								 skipexisting="true"/>
+
+								<taskdef resource="net/sf/antcontrib/antcontrib.properties" />
+
+								<property name="tcserver.name"
+									value="vfabric-tc-server-developer-2.7.1.RELEASE" />
+
+								<get
+									src="http://download.springsource.com/release/TCS/${tcserver.name}.zip"
+									dest="${project.build.directory}/${tcserver.name}.zip" verbose="true"
+									skipexisting="true" />
 								<if>
 									<available file="${project.build.directory}/${tcserver.name}.zip" />
 									<then>
 										<exec executable="unzip">
-										    <arg line="-o ${project.build.directory}/${tcserver.name}.zip -d ${project.build.directory}" />
+											<arg
+												line="-o ${project.build.directory}/${tcserver.name}.zip -d ${project.build.directory}" />
 										</exec>
-										
+
 										<copy todir="${basedir}/content">
-									    	<fileset dir="${project.build.directory}/${tcserver.name}"/>
-									  	</copy>
+											<fileset dir="${project.build.directory}/${tcserver.name}" />
+										</copy>
 									</then>
 								</if>
-								
+
 							</target>
 						</configuration>
 						<goals>
@@ -80,6 +81,6 @@
 					</dependency>
 				</dependencies>
 			</plugin>
-	</plugins>
-  </build>
+		</plugins>
+	</build>
 </project>
