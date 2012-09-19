@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="com.springsource.sts.ide.configurator.participant">
+      <installableItem
+            configurator="com.springsource.sts.configurator.grails"
+            id="grails-${version}">
+         <copy
+               source="content">
+         </copy>
+         <chmod
+               file="bin/cygrails"
+               mode="755">
+         </chmod>
+         <chmod
+               file="bin/grails"
+               mode="755">
+         </chmod>
+         <chmod
+               file="bin/grails-debug"
+               mode="755">
+         </chmod>
+         <chmod
+               file="bin/startGrails"
+               mode="755">
+         </chmod>
+      </installableItem>
+   </extension>
+</plugin>

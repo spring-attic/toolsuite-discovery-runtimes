@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="com.springsource.sts.ide.configurator.participant">
+      <installableItem
+            configurator="com.springsource.sts.configurator.roo"
+            id="spring-roo-${version}">
+         <copy
+               source="content">
+         </copy>
+         <chmod
+               file="bin/roo.sh"
+               mode="755">
+         </chmod>
+      </installableItem>
+   </extension>
+</plugin>

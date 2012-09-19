@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.codehaus.grails.bundle"
+      label="%featureName"
+      version="2.1.0"
+      provider-name="%providerName">
+
+   <description url="http://grails.org">
+      %description
+   </description>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.codehaus.grails.bundle"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"/>
+
+</feature>

@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Grails
+Bundle-SymbolicName: org.codehaus.grails.bundle;singleton:=true
+Bundle-Version: 2.1.0
+Bundle-Vendor: Codehaus.org
+Eclipse-BundleShape: dir

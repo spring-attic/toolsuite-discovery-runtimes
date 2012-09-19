@@ -1,0 +1,2 @@
+instructions.install = \
+	com.springsource.sts.ide.configure(extension:grails-2.1.0);
