@@ -42,6 +42,16 @@
 
 		<tycho-version>0.14.1</tycho-version>
 	</properties>
+	
+	</profiles>
+		<profile>
+			<id>bamboo-signing</id>
+			<properties>
+				<signing.store.password>${env.bamboo_signing_store_password}</signing.store.password>
+				<signing.key.password>${env.bamboo_signing_key_password}</signing.key.password>
+			</properties>
+		</profile>
+  	</profiles>
 
 	<pluginRepositories>
 		<!-- necessary for Maven and Ant AWS dependency -->
