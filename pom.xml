@@ -43,7 +43,7 @@
 		<tycho-version>0.14.1</tycho-version>
 	</properties>
 	
-	</profiles>
+	<profiles>
 		<profile>
 			<id>bamboo-signing</id>
 			<properties>
