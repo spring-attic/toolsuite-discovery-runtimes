@@ -7,7 +7,7 @@
     <groupId>org.springsource.sts-ggts-bundles.features</groupId>
     <artifactId>org.springsource.sts-ggts-bundles.features.parent</artifactId>
     <relativePath>../pom.xml</relativePath>
-    <version>3.1.0-SNAPSHOT</version>
+    <version>3.0.0-SNAPSHOT</version>
   </parent>
   <artifactId>com.springsource.server.tc.bundle</artifactId>
   <name>com.springsource.server.tc.bundle-feature</name>
