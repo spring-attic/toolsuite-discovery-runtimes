@@ -17,22 +17,22 @@
 
 	<!-- tc Server -->
 	<feature
-		url="com.springsource.server.tc.bundle_2.7.1.RELEASE.jar"
-		id="com.springsource.server.tc.bundle" version="2.7.1.RELEASE">
+		url="com.springsource.server.tc.bundle_0.0.0.jar"
+		id="com.springsource.server.tc.bundle" version="0.0.0">
 		<category name="SpringSource Tool Suite Runtime Bundles" />
 	</feature>
 
 	<!-- Spring Roo -->
 	<feature
-		url="org.springframework.roo.bundle_1.2.2.RELEASE.jar"
-		id="org.springframework.roo.bundle" version="1.2.2.RELEASE">
+		url="org.springframework.roo.bundle_0.0.0.jar"
+		id="org.springframework.roo.bundle" version="0.0.0">
 		<category name="SpringSource Tool Suite Runtime Bundles" />
 	</feature>
 
 	<!-- Grails -->
 	<feature
-		url="org.codehaus.grails.bundle_2.1.0.jar"
-		id="org.codehaus.grails.bundle" version="2.1.0">
+		url="org.codehaus.grails.bundle_0.0.0.jar"
+		id="org.codehaus.grails.bundle" version="0.0.0">
 		<category name="SpringSource Tool Suite Runtime Bundles" />
 	</feature>
 
