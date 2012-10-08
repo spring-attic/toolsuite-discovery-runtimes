@@ -39,7 +39,7 @@
 		<dist.bucket>dist.springsource.com</dist.bucket>
 
 		<!-- path for the distribution deployment -->
-		<dist.path>release/TOOLS/extensions/sts310</dist.path>
+		<dist.path>release/TOOLS/extensions/sts320</dist.path>
 		<!-- please change for different versions of STS -->
 
 		<dist.properties>dist.properties</dist.properties>
