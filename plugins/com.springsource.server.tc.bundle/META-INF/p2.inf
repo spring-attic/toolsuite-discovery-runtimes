@@ -1,2 +1,2 @@
 instructions.install = \
-	com.springsource.sts.ide.configure(extension:vfabric-tc-server-developer-2.9.1.RELEASE);
+	com.springsource.sts.ide.configure(extension:vfabric-tc-server-developer-2.9.2.RELEASE);
