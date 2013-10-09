@@ -6,7 +6,7 @@
 		<groupId>org.springsource.sts-ggts-bundles.features</groupId>
 		<artifactId>org.springsource.sts-ggts-bundles.features.parent</artifactId>
 		<relativePath>../pom.xml</relativePath>
-		<version>3.4.0-SNAPSHOT</version>
+		<version>3.5.0-SNAPSHOT</version>
 	</parent>
 	<artifactId>org.springframework.roo.bundle</artifactId>
 	<name>org.springframework.roo.bundle-feature</name>
