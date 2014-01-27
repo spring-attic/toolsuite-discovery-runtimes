@@ -2,7 +2,7 @@
 <feature
       id="org.codehaus.grails.bundle"
       label="%featureName"
-      version="2.3.4"
+      version="2.3.5"
       provider-name="%providerName">
 
    <description url="http://grails.org">
