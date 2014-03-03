@@ -11,7 +11,7 @@
 	<artifactId>org.springframework.roo.bundle</artifactId>
 	<packaging>eclipse-plugin</packaging>
 	<name>org.springframework.roo.bundle</name>
-	<version>1.2.4.RELEASE</version>
+	<version>1.2.5.RELEASE</version>
 
 	<build>
 		<plugins>
@@ -44,10 +44,10 @@
 
 								<taskdef resource="net/sf/antcontrib/antcontrib.properties" />
 
-								<property name="roo.name" value="spring-roo-1.2.4.RELEASE" />
+								<property name="roo.name" value="spring-roo-1.2.5.RELEASE" />
 
 								<get
-									src="http://dist.springframework.org/release/ROO/spring-roo-1.2.4.RELEASE.zip"
+									src="http://dist.springframework.org/release/ROO/spring-roo-1.2.5.RELEASE.zip"
 									dest="${project.build.directory}/${roo.name}.zip" verbose="true"
 									skipexisting="true" />
 								<if>
