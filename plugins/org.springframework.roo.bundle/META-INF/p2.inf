@@ -1,2 +1,2 @@
 instructions.install = \
-	com.springsource.sts.ide.configure(extension:spring-roo-1.2.4.RELEASE);
+	com.springsource.sts.ide.configure(extension:spring-roo-1.2.5.RELEASE);
