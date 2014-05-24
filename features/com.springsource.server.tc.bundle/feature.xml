@@ -2,7 +2,7 @@
 <feature
       id="com.springsource.server.tc.bundle"
       label="%featureName"
-      version="2.9.5.SR1"
+      version="2.9.6.RELEASE"
       provider-name="%providerName">
 
    <description url="%descriptionURL">
