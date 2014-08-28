@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: vFabric tc Server Developer Edition
+Bundle-Name: Pivotal tc Server Developer Edition
 Bundle-SymbolicName: com.springsource.server.tc.bundle;singleton:=true
-Bundle-Version: 2.9.7.RELEASE
-Bundle-Vendor: VMware, Inc.
+Bundle-Version: 3.0.0.RELEASE
+Bundle-Vendor: Pivotal Software, Inc.
 Eclipse-BundleShape: dir

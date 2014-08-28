@@ -5,38 +5,10 @@
          point="com.springsource.sts.ide.configurator.participant">
       <installableItem
             configurator="com.springsource.sts.ide.configurator.ServerConfigurator"
-            id="vfabric-tc-server-developer-${version}">
+            id="pivotal-tc-server-developer-${version}">
          <copy
                source="content">
          </copy>
-         <chmod
-               file="tomcat-6.0.41.B.RELEASE/bin/catalina.sh"
-               mode="755">
-         </chmod>
-         <chmod
-               file="tomcat-6.0.41.B.RELEASE/bin/digest.sh"
-               mode="755">
-         </chmod>
-         <chmod
-               file="tomcat-6.0.41.B.RELEASE/bin/setclasspath.sh"
-               mode="755">
-         </chmod>
-         <chmod
-               file="tomcat-6.0.41.B.RELEASE/bin/shutdown.sh"
-               mode="755">
-         </chmod>
-         <chmod
-               file="tomcat-6.0.41.B.RELEASE/bin/startup.sh"
-               mode="755">
-         </chmod>
-         <chmod
-               file="tomcat-6.0.41.B.RELEASE/bin/tool-wrapper.sh"
-               mode="755">
-         </chmod>
-         <chmod
-               file="tomcat-6.0.41.B.RELEASE/bin/version.sh"
-               mode="755">
-         </chmod>
 
          <chmod
                file="tomcat-7.0.55.A.RELEASE/bin/catalina.sh"
@@ -64,6 +36,35 @@
          </chmod>
          <chmod
                file="tomcat-7.0.55.A.RELEASE/bin/version.sh"
+               mode="755">
+         </chmod>
+
+         <chmod
+               file="tomcat-8.0.9.B.RELEASE/bin/catalina.sh"
+               mode="755">
+         </chmod>
+         <chmod
+               file="tomcat-8.0.9.B.RELEASE/bin/digest.sh"
+               mode="755">
+         </chmod>
+         <chmod
+               file="tomcat-8.0.9.B.RELEASE/bin/setclasspath.sh"
+               mode="755">
+         </chmod>
+         <chmod
+               file="tomcat-8.0.9.B.RELEASE/bin/shutdown.sh"
+               mode="755">
+         </chmod>
+         <chmod
+               file="tomcat-8.0.9.B.RELEASE/bin/startup.sh"
+               mode="755">
+         </chmod>
+         <chmod
+               file="tomcat-8.0.9.B.RELEASE/bin/tool-wrapper.sh"
+               mode="755">
+         </chmod>
+         <chmod
+               file="tomcat-8.0.9.B.RELEASE/bin/version.sh"
                mode="755">
          </chmod>
 
