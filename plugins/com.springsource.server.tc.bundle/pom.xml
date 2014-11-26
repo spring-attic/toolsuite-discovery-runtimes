@@ -11,7 +11,7 @@
 	<artifactId>com.springsource.server.tc.bundle</artifactId>
 	<packaging>eclipse-plugin</packaging>
 	<name>com.springsource.server.tc.bundle</name>
-	<version>3.0.0.RELEASE</version>
+	<version>3.0.2.RELEASE</version>
 
 	<build>
 		<plugins>
@@ -45,12 +45,10 @@
 								<taskdef resource="net/sf/antcontrib/antcontrib.properties" />
 
 								<property name="tcserver.name"
-									value="pivotal-tc-server-developer-3.0.0.RELEASE" />
-								<property name="tcserver.version.path"
-									value="3.0.0" />
+									value="pivotal-tc-server-developer-3.0.2.RELEASE" />
 
 								<get
-									src="http://download.pivotal.com.s3.amazonaws.com/tcserver/${tcserver.version.path}/${tcserver.name}.zip"
+									src="http://download.springsource.com/release/TCS/${tcserver.name}.zip"
 									dest="${project.build.directory}/${tcserver.name}.zip" verbose="true"
 									skipexisting="true" />
 								<if>
