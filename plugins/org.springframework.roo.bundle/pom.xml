@@ -6,7 +6,7 @@
 		<groupId>org.springsource.sts-ggts-bundles.plugins</groupId>
 		<artifactId>org.springsource.sts-ggts-bundles.plugins.parent</artifactId>
 		<relativePath>../pom.xml</relativePath>
-		<version>3.6.0-SNAPSHOT</version>
+		<version>3.7.0-SNAPSHOT</version>
 	</parent>
 	<artifactId>org.springframework.roo.bundle</artifactId>
 	<packaging>eclipse-plugin</packaging>
