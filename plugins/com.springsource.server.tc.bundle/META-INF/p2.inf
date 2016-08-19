@@ -1,2 +1,2 @@
 instructions.install = \
-	com.springsource.sts.ide.configure(extension:pivotal-tc-server-developer-3.1.5.RELEASE);
+	com.springsource.sts.ide.configure(extension:pivotal-tc-server-developer-3.2.0.RELEASE);
