@@ -10,7 +10,7 @@
 	</parent>
 	<artifactId>org.springsource.sts-ggts-bundles.site</artifactId>
 	<packaging>eclipse-repository</packaging>
-	<name>org.springsource.sts-ggts-bundles.site</name>
+	<name>Spring Tool Suite Runtimes Repository</name>
 
 	<properties>
 		<dist.accessKey>${accessKey}</dist.accessKey>
