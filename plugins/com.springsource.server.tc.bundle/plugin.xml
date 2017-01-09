@@ -11,60 +11,60 @@
          </copy>
 
          <chmod
-               file="tomcat-7.0.72.B.RELEASE/bin/catalina.sh"
+               file="tomcat-7.0.72.C.RELEASE/bin/catalina.sh"
                mode="755">
          </chmod>
          <chmod
-               file="tomcat-7.0.72.B.RELEASE/bin/digest.sh"
+               file="tomcat-7.0.72.C.RELEASE/bin/digest.sh"
                mode="755">
          </chmod>
          <chmod
-               file="tomcat-7.0.72.B.RELEASE/bin/setclasspath.sh"
+               file="tomcat-7.0.72.C.RELEASE/bin/setclasspath.sh"
                mode="755">
          </chmod>
          <chmod
-               file="tomcat-7.0.72.B.RELEASE/bin/shutdown.sh"
+               file="tomcat-7.0.72.C.RELEASE/bin/shutdown.sh"
                mode="755">
          </chmod>
          <chmod
-               file="tomcat-7.0.72.B.RELEASE/bin/startup.sh"
+               file="tomcat-7.0.72.C.RELEASE/bin/startup.sh"
                mode="755">
          </chmod>
          <chmod
-               file="tomcat-7.0.72.B.RELEASE/bin/tool-wrapper.sh"
+               file="tomcat-7.0.72.C.RELEASE/bin/tool-wrapper.sh"
                mode="755">
          </chmod>
          <chmod
-               file="tomcat-7.0.72.B.RELEASE/bin/version.sh"
+               file="tomcat-7.0.72.C.RELEASE/bin/version.sh"
                mode="755">
          </chmod>
 
          <chmod
-               file="tomcat-8.5.9.B.RELEASE/bin/catalina.sh"
+               file="tomcat-8.5.6.B.RELEASE/bin/catalina.sh"
                mode="755">
          </chmod>
          <chmod
-               file="tomcat-8.5.9.B.RELEASE/bin/digest.sh"
+               file="tomcat-8.5.6.B.RELEASE/bin/digest.sh"
                mode="755">
          </chmod>
          <chmod
-               file="tomcat-8.5.9.B.RELEASE/bin/setclasspath.sh"
+               file="tomcat-8.5.6.B.RELEASE/bin/setclasspath.sh"
                mode="755">
          </chmod>
          <chmod
-               file="tomcat-8.5.9.B.RELEASE/bin/shutdown.sh"
+               file="tomcat-8.5.6.B.RELEASE/bin/shutdown.sh"
                mode="755">
          </chmod>
          <chmod
-               file="tomcat-8.5.9.B.RELEASE/bin/startup.sh"
+               file="tomcat-8.5.6.B.RELEASE/bin/startup.sh"
                mode="755">
          </chmod>
          <chmod
-               file="tomcat-8.5.9.B.RELEASE/bin/tool-wrapper.sh"
+               file="tomcat-8.5.6.B.RELEASE/bin/tool-wrapper.sh"
                mode="755">
          </chmod>
          <chmod
-               file="tomcat-8.5.9.B.RELEASE/bin/version.sh"
+               file="tomcat-8.5.6.B.RELEASE/bin/version.sh"
                mode="755">
          </chmod>
 
