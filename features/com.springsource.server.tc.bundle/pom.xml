@@ -11,7 +11,7 @@
 	<artifactId>com.springsource.server.tc.bundle</artifactId>
 	<name>com.springsource.server.tc.bundle-feature</name>
 	<packaging>eclipse-feature</packaging>
-	<version>3.2.4.RELEASE</version>
+	<version>3.2.4.SR1</version>
 
 	<build>
 		<plugins>
