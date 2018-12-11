@@ -23,17 +23,17 @@
 	</feature>
 
 	<!-- Spring Roo -->
-	<feature
+<!--	<feature
 		url="org.springframework.roo.bundle_0.0.0.jar"
 		id="org.springframework.roo.bundle" version="0.0.0">
 		<category name="SpringSource Tool Suite Runtime Bundles" />
 	</feature>
-
+-->
 	<!-- Grails -->
-	<feature
+<!--	<feature
 		url="org.codehaus.grails.bundle_0.0.0.jar"
 		id="org.codehaus.grails.bundle" version="0.0.0">
 		<category name="SpringSource Tool Suite Runtime Bundles" />
-	</feature>
+	</feature> -->
 
 </site>

@@ -16,11 +16,11 @@
 		<module>features/com.springsource.server.tc.bundle</module>
 		<module>plugins/com.springsource.server.tc.bundle</module>
 
-		<module>features/org.codehaus.grails.bundle</module>
+<!--		<module>features/org.codehaus.grails.bundle</module>
 		<module>plugins/org.codehaus.grails.bundle</module>
 
 		<module>features/org.springframework.roo.bundle</module>
-		<module>plugins/org.springframework.roo.bundle</module>
+		<module>plugins/org.springframework.roo.bundle</module> -->
 
 		<module>releng/org.springsource.sts-ggts-bundles.site</module>
 	</modules>
