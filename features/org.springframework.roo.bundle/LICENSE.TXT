@@ -4,7 +4,7 @@ LEGAL NOTICES
 
 Roo is copyright (C) 2008-2009 SpringSource Inc. All Rights Reserved. 
 
-Roo is licensed under the GPLv3: http://www.gnu.org/copyleft/gpl.html
+Roo is licensed under the GPLv3: https://www.gnu.org/copyleft/gpl.html
 
 The contents of roo-annotations-*.jar are dual licensed under both the
 GPLv3 and also the Apache License, Version 2.0: 
